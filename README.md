@@ -1,3 +1,8 @@
 # UCLChristianUnion.github.io
 
-Christian Union
+Hey! This is for the UCL Christian union to host podcasts on!
+
+Love if you would get in contact with us:
+<a src=https://www.instagram.com/ucl.cu/> Instagram </a>
+<a src=https://uclchristianunion.wixsite.com/uclcu/> Website </a>
+<a src=https://linktr.ee/ucl.cu> Link Tree </a>
