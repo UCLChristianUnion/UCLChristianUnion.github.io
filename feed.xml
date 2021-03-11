@@ -10,31 +10,33 @@
     <image>
       <url>https://uclchristianunion.github.io/images/main.png</url>
       <title>UCL Christian Union What now? 2021</title>
-      <link>https://rodydavis.github.io/podcast-player/</link>
+      <link>https://uclchristianunion.github.io</link>
     </image>
     <itunes:owner>
-      <itunes:name>Rody Davis</itunes:name>
-      <itunes:email>rody.davis.jr@gmail.com</itunes:email>
+      <itunes:name>UCL CU</itunes:name>
+      <itunes:email>ucl.christianunion@gmail.com</itunes:email>
     </itunes:owner>
-    <itunes:keywords>flutter,dart,github,vr,ar,web</itunes:keywords>
-    <copyright>Rody Davis Productions 2020</copyright>
-    <description>Exploring Flutter, VR, AR, Cross-Platform Projects</description>
-    <googleplay:image href="https://rodydavis.github.io/podcast-player/img/icon.jpg" />
-    <language>en-us</language>
+    <itunes:keywords>Christianity,faith</itunes:keywords>
+    <copyright>UCL Christian Union 2021</copyright>
+    <description>Have you ever achieved something that you were chasing, only to realize it doesn't make you as happy as you thought it would? Have you ever placed your trust in a solution to a problem that did not end up working? Has this pandemic stripped from you things that were important to you? Do you ever just find yourself sitting and thinking... what now? In February 2021, UCL Christian Union hosted events week, which is a series of talks exploring the theme of "What now?" In those moments when we have nothing but the question "what now?" in our heads, is there really no way to find an answer? Whether you call yourself a Christian or not, we would love to invite you to check out this wonderful lineup of talks about a different pressing topic each day.</description>
+    <googleplay:image href="https://uclchristianunion.github.io/images/main.png" />
+    <language>en-en</language>
     <itunes:explicit>no</itunes:explicit>
-    <pubDate>Mon, 13 Apr 2020 13:00:00 PDT</pubDate>
-    <link>https://rodydavis.github.io/podcast-player/feed.xml</link>
-    <itunes:image href="https://rodydavis.github.io/podcast-player/img/icon.jpg" />
+    <pubDate>Wed, 10 Mar 2021 13:00:00 GMT</pubDate>
+    <link>https://uclchristianunion.github.io/feed.xml</link>
+    <itunes:image href="https://uclchristianunion.github.io/images/main.png" />
     <item>
-      <author>Rody Davis, Norbert Kozsir</author>
-      <itunes:author>Rody Davis, Norbert Kozsir</itunes:author>
-      <title>Flutter Desktop/Web and VR</title>
-      <pubDate>Mon, 13 Apr 2020 13:00:00 GMT</pubDate>
-      <enclosure url="https://rodydavis.github.io/podcast-player/audio/01-create-eng.mp3" type="audio/mpeg" length="34216300" />
-      <itunes:duration>54:08</itunes:duration>
+      <author>UCL Christian Union</author>
+      <itunes:author>UCL Christian Union</itunes:author>
+      <title>Success Culture and Christianity - How can i succeed and fail without it ruining me?</title>
+      <pubDate>Wed, 10 Mar 2021 13:00:00 GMT</pubDate>
+      <enclosure url="https://uclchristianunion.github.io/audio/WhatNowSuccess.mpeg" type="audio/mpeg" length="29512661" />
+      <itunes:duration>39:33</itunes:duration>
       <guid isPermaLink="false">cepod01</guid>
       <itunes:explicit>no</itunes:explicit>
       <description>
+        We are brought up in a culture that teaches us to succeed. This might mean making good money, getting a good job, making our family proud, getting good grades at uni... So we strive to achieve them. But you feel like an imposter, everyone around you seems better than you are. You’re told to work harder, that a bit more success will make you feel better. But it never does… There's always more, it's overwhelming, the fear of failure, the feeling of insignificance. So… what now? Events week is a series of talks organized by the UCL Christian Union, around 40min each, and this year we are exploring the theme of "What now?". We are very excited to have Peter Dray from UCCF speak to us on the first topic "Success Culture and Christianity - How Can I Succeed And Fail Without It Ruining Me?"<br /><br />---<br /><br />Check out our social media to stay up to date with future events:<br /><br />Facebook: <a href="https://www.facebook.com/uclcu" rel="noopener">https://www.facebook.com/uclcu</a>/​​​​​<br /><br />Instagram: <a href="https://www.instagram.com/ucl.cu/" rel="noopener">https://www.instagram.com/ucl.cu/</a>
+      </description>
     </item>
   </channel>
 </rss>
