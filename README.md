@@ -2,7 +2,7 @@
 
 Hey! This is for the UCL Christian Union to host podcasts on!
 
-Love if you would get in contact with us: <br>
+We would love if you would get in contact with us: <br>
 
 <a href = "https://www.instagram.com/ucl.cu" > Instagram </a> <br>
 <a href = "https://linktr.ee/ucl.cu" > Website </a> <br>
