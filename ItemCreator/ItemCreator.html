@@ -29,7 +29,7 @@
     <label> Author </label> <input id="authorInput" value="UCL Christian Union"> <br>
     <label> Title </label> <input id="titleInput"> <br>
     <label> Date </label> <input id="dateInput"> <br>
-    <label> URL </label> <input id="urlInput">  <br>
+    <label> URL </label> <input id="urlInput" value="https://uclchristianunion.github.io/">  <br>
     <label> Type </label> <input id="typeInput" value="audio/mpeg"> <br>
     <label> ByteLength </label> <input id="ByteLengthInput"> <br>
     <label> Duration </label> <input id="durationInput"> <br>
@@ -41,7 +41,7 @@
 <button onclick= setValues()> Set Values </button>
 
 <script>
-    //Theres certainly a nocer way to do this but eh it works
+    //Theres certainly a nicer way to do this but eh it works
     // - Joshua Mukherjee UCL CU president 2020/2021
     function setValues(){
         document.getElementById("author").textContent = document.getElementById("authorInput").value
