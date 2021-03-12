@@ -1,0 +1,332 @@
+<!doctype html>
+<html style='font-size:16px !important'>
+<head>
+<meta charset='UTF-8'><meta name='viewport' content='width=device-width initial-scale=1'>
+<title>AddItemGuide</title><style type='text/css'>html {overflow-x: initial !important;}:root { --bg-color: #ffffff; --text-color: #333333; --select-text-bg-color: #B5D6FC; --select-text-font-color: auto; --monospace: "Lucida Console",Consolas,"Courier",monospace; --title-bar-height: 20px; }
+.mac-os-11 { --title-bar-height: 28px; }
+html { font-size: 14px; background-color: var(--bg-color); color: var(--text-color); font-family: "Helvetica Neue", Helvetica, Arial, sans-serif; -webkit-font-smoothing: antialiased; }
+body { margin: 0px; padding: 0px; height: auto; bottom: 0px; top: 0px; left: 0px; right: 0px; font-size: 1rem; line-height: 1.42857143; overflow-x: hidden; background-image: inherit; background-size: inherit; background-attachment: inherit; background-origin: inherit; background-clip: inherit; background-color: inherit; tab-size: 4; background-position: inherit inherit; background-repeat: inherit inherit; }
+iframe { margin: auto; }
+a.url { word-break: break-all; }
+a:active, a:hover { outline: 0px; }
+.in-text-selection, ::selection { text-shadow: none; background: var(--select-text-bg-color); color: var(--select-text-font-color); }
+#write { margin: 0px auto; height: auto; width: inherit; word-break: normal; word-wrap: break-word; position: relative; white-space: normal; overflow-x: visible; padding-top: 36px; }
+#write.first-line-indent p { text-indent: 2em; }
+#write.first-line-indent li p, #write.first-line-indent p * { text-indent: 0px; }
+#write.first-line-indent li { margin-left: 2em; }
+.for-image #write { padding-left: 8px; padding-right: 8px; }
+body.typora-export { padding-left: 30px; padding-right: 30px; }
+.typora-export .footnote-line, .typora-export li, .typora-export p { white-space: pre-wrap; }
+.typora-export .task-list-item input { pointer-events: none; }
+@media screen and (max-width: 500px) { 
+  body.typora-export { padding-left: 0px; padding-right: 0px; }
+  #write { padding-left: 20px; padding-right: 20px; }
+  .CodeMirror-sizer { margin-left: 0px !important; }
+  .CodeMirror-gutters { display: none !important; }
+}
+#write li > figure:last-child { margin-bottom: 0.5rem; }
+#write ol, #write ul { position: relative; }
+img { max-width: 100%; vertical-align: middle; image-orientation: from-image; }
+button, input, select, textarea { color: inherit; font-family: inherit; font-size: inherit; font-style: inherit; font-variant-caps: inherit; font-weight: inherit; font-stretch: inherit; line-height: inherit; }
+input[type="checkbox"], input[type="radio"] { line-height: normal; padding: 0px; }
+*, ::after, ::before { box-sizing: border-box; }
+#write h1, #write h2, #write h3, #write h4, #write h5, #write h6, #write p, #write pre { width: inherit; }
+#write h1, #write h2, #write h3, #write h4, #write h5, #write h6, #write p { position: relative; }
+p { line-height: inherit; }
+h1, h2, h3, h4, h5, h6 { break-after: avoid-page; break-inside: avoid; orphans: 4; }
+p { orphans: 4; }
+h1 { font-size: 2rem; }
+h2 { font-size: 1.8rem; }
+h3 { font-size: 1.6rem; }
+h4 { font-size: 1.4rem; }
+h5 { font-size: 1.2rem; }
+h6 { font-size: 1rem; }
+.md-math-block, .md-rawblock, h1, h2, h3, h4, h5, h6, p { margin-top: 1rem; margin-bottom: 1rem; }
+.hidden { display: none; }
+.md-blockmeta { color: rgb(204, 204, 204); font-weight: 700; font-style: italic; }
+a { cursor: pointer; }
+sup.md-footnote { padding: 2px 4px; background-color: rgba(238, 238, 238, 0.7); color: rgb(85, 85, 85); border-top-left-radius: 4px; border-top-right-radius: 4px; border-bottom-right-radius: 4px; border-bottom-left-radius: 4px; cursor: pointer; }
+sup.md-footnote a, sup.md-footnote a:hover { color: inherit; text-transform: inherit; text-decoration: inherit; }
+#write input[type="checkbox"] { cursor: pointer; width: inherit; height: inherit; }
+figure { overflow-x: auto; margin: 1.2em 0px; max-width: calc(100% + 16px); padding: 0px; }
+figure > table { margin: 0px; }
+tr { break-inside: avoid; break-after: auto; }
+thead { display: table-header-group; }
+table { border-collapse: collapse; border-spacing: 0px; width: 100%; overflow: auto; break-inside: auto; text-align: left; }
+table.md-table td { min-width: 32px; }
+.CodeMirror-gutters { border-right-width: 0px; background-color: inherit; }
+.CodeMirror-linenumber { }
+.CodeMirror { text-align: left; }
+.CodeMirror-placeholder { opacity: 0.3; }
+.CodeMirror pre { padding: 0px 4px; }
+.CodeMirror-lines { padding: 0px; }
+div.hr:focus { cursor: none; }
+#write pre { white-space: pre-wrap; }
+#write.fences-no-line-wrapping pre { white-space: pre; }
+#write pre.ty-contain-cm { white-space: normal; }
+.CodeMirror-gutters { margin-right: 4px; }
+.md-fences { font-size: 0.9rem; display: block; break-inside: avoid; text-align: left; overflow: visible; white-space: pre; background-image: inherit; background-size: inherit; background-attachment: inherit; background-origin: inherit; background-clip: inherit; background-color: inherit; position: relative !important; background-position: inherit inherit; background-repeat: inherit inherit; }
+.md-diagram-panel { width: 100%; margin-top: 10px; text-align: center; padding-top: 0px; padding-bottom: 8px; overflow-x: auto; }
+#write .md-fences.mock-cm { white-space: pre-wrap; }
+.md-fences.md-fences-with-lineno { padding-left: 0px; }
+#write.fences-no-line-wrapping .md-fences.mock-cm { white-space: pre; overflow-x: auto; }
+.md-fences.mock-cm.md-fences-with-lineno { padding-left: 8px; }
+.CodeMirror-line, twitterwidget { break-inside: avoid; }
+.footnotes { opacity: 0.8; font-size: 0.9rem; margin-top: 1em; margin-bottom: 1em; }
+.footnotes + .footnotes { margin-top: 0px; }
+.md-reset { margin: 0px; padding: 0px; border: 0px; outline: 0px; vertical-align: top; text-decoration: none; text-shadow: none; float: none; position: static; width: auto; height: auto; white-space: nowrap; cursor: inherit; line-height: normal; font-weight: 400; text-align: left; box-sizing: content-box; direction: ltr; background-position: 0px 0px; background-repeat: initial initial; }
+li div { padding-top: 0px; }
+blockquote { margin: 1rem 0px; }
+li .mathjax-block, li p { margin: 0.5rem 0px; }
+li blockquote { margin: 1rem 0px; }
+li { margin: 0px; position: relative; }
+blockquote > :last-child { margin-bottom: 0px; }
+blockquote > :first-child, li > :first-child { margin-top: 0px; }
+.footnotes-area { color: rgb(136, 136, 136); margin-top: 0.714rem; padding-bottom: 0.143rem; white-space: normal; }
+#write .footnote-line { white-space: pre-wrap; }
+@media print { 
+  body, html { border: 1px solid transparent; height: 99%; break-after: avoid; break-before: avoid; font-variant-ligatures: no-common-ligatures; }
+  #write { margin-top: 0px; padding-top: 0px; border-color: transparent !important; }
+  .typora-export * { -webkit-print-color-adjust: exact; }
+  .typora-export #write { break-after: avoid; }
+  .typora-export #write::after { height: 0px; }
+  .is-mac table { break-inside: avoid; }
+}
+.footnote-line { margin-top: 0.714em; font-size: 0.7em; }
+a img, img a { cursor: pointer; }
+pre.md-meta-block { font-size: 0.8rem; min-height: 0.8rem; white-space: pre-wrap; background-color: rgb(204, 204, 204); display: block; overflow-x: hidden; background-position: initial initial; background-repeat: initial initial; }
+p > .md-image:only-child:not(.md-img-error) img, p > img:only-child { display: block; margin: auto; }
+#write.first-line-indent p > .md-image:only-child:not(.md-img-error) img { left: -2em; position: relative; }
+p > .md-image:only-child { display: inline-block; width: 100%; }
+#write .MathJax_Display { margin: 0.8em 0px 0px; }
+.md-math-block { width: 100%; }
+.md-math-block:not(:empty)::after { display: none; }
+.MathJax_ref { fill: currentcolor; }
+[contenteditable="true"]:active, [contenteditable="true"]:focus, [contenteditable="false"]:active, [contenteditable="false"]:focus { outline: 0px; box-shadow: none; }
+.md-task-list-item { position: relative; list-style-type: none; }
+.task-list-item.md-task-list-item { padding-left: 0px; }
+.md-task-list-item > input { position: absolute; top: 0px; left: 0px; margin-left: -1.2em; margin-top: calc(1em - 10px); border: none; }
+.math { font-size: 1rem; }
+.md-toc { min-height: 3.58rem; position: relative; font-size: 0.9rem; border-top-left-radius: 10px; border-top-right-radius: 10px; border-bottom-right-radius: 10px; border-bottom-left-radius: 10px; }
+.md-toc-content { position: relative; margin-left: 0px; }
+.md-toc-content::after, .md-toc::after { display: none; }
+.md-toc-item { display: block; color: rgb(65, 131, 196); }
+.md-toc-item a { text-decoration: none; }
+.md-toc-inner:hover { text-decoration: underline; }
+.md-toc-inner { display: inline-block; cursor: pointer; }
+.md-toc-h1 .md-toc-inner { margin-left: 0px; font-weight: 700; }
+.md-toc-h2 .md-toc-inner { margin-left: 2em; }
+.md-toc-h3 .md-toc-inner { margin-left: 4em; }
+.md-toc-h4 .md-toc-inner { margin-left: 6em; }
+.md-toc-h5 .md-toc-inner { margin-left: 8em; }
+.md-toc-h6 .md-toc-inner { margin-left: 10em; }
+@media screen and (max-width: 48em) { 
+  .md-toc-h3 .md-toc-inner { margin-left: 3.5em; }
+  .md-toc-h4 .md-toc-inner { margin-left: 5em; }
+  .md-toc-h5 .md-toc-inner { margin-left: 6.5em; }
+  .md-toc-h6 .md-toc-inner { margin-left: 8em; }
+}
+a.md-toc-inner { font-size: inherit; font-style: inherit; font-weight: inherit; line-height: inherit; }
+.footnote-line a:not(.reversefootnote) { color: inherit; }
+.md-attr { display: none; }
+.md-fn-count::after { content: "."; }
+code, pre, samp, tt { font-family: var(--monospace); }
+kbd { margin: 0px 0.1em; padding: 0.1em 0.6em; font-size: 0.8em; color: rgb(36, 39, 41); background-color: rgb(255, 255, 255); border: 1px solid rgb(173, 179, 185); border-top-left-radius: 3px; border-top-right-radius: 3px; border-bottom-right-radius: 3px; border-bottom-left-radius: 3px; box-shadow: rgba(12, 13, 14, 0.2) 0px 1px 0px, rgb(255, 255, 255) 0px 0px 0px 2px inset; white-space: nowrap; vertical-align: middle; background-position: initial initial; background-repeat: initial initial; }
+.md-comment { color: rgb(162, 127, 3); opacity: 0.8; font-family: var(--monospace); }
+code { text-align: left; }
+a.md-print-anchor { white-space: pre !important; border: none !important; display: inline-block !important; position: absolute !important; width: 1px !important; right: 0px !important; outline: 0px !important; text-shadow: initial !important; background-position: 0px 0px !important; background-repeat: initial initial !important; }
+.md-inline-math .MathJax_SVG .noError { display: none !important; }
+.html-for-mac .inline-math-svg .MathJax_SVG { vertical-align: 0.2px; }
+.md-math-block .MathJax_SVG_Display { text-align: center; margin: 0px; position: relative; text-indent: 0px; max-width: none; max-height: none; min-height: 0px; min-width: 100%; width: auto; overflow-y: hidden; display: block !important; }
+.MathJax_SVG_Display, .md-inline-math .MathJax_SVG_Display { width: auto; margin: inherit; display: inline-block !important; }
+.MathJax_SVG .MJX-monospace { font-family: var(--monospace); }
+.MathJax_SVG .MJX-sans-serif { font-family: sans-serif; }
+.MathJax_SVG { display: inline; font-style: normal; font-weight: 400; line-height: normal; zoom: 90%; text-indent: 0px; text-align: left; text-transform: none; letter-spacing: normal; word-spacing: normal; word-wrap: normal; white-space: nowrap; float: none; direction: ltr; max-width: none; max-height: none; min-width: 0px; min-height: 0px; border: 0px; padding: 0px; margin: 0px; }
+.MathJax_SVG * { transition: none; }
+.MathJax_SVG_Display svg { vertical-align: middle !important; margin-bottom: 0px !important; margin-top: 0px !important; }
+.os-windows.monocolor-emoji .md-emoji { font-family: "Segoe UI Symbol", sans-serif; }
+.md-diagram-panel > svg { max-width: 100%; }
+[lang="flow"] svg, [lang="mermaid"] svg { max-width: 100%; height: auto; }
+[lang="mermaid"] .node text { font-size: 1rem; }
+table tr th { border-bottom-width: 0px; }
+video { max-width: 100%; display: block; margin: 0px auto; }
+iframe { max-width: 100%; width: 100%; border: none; }
+.highlight td, .highlight tr { border: 0px; }
+mark { background-color: rgb(255, 255, 0); color: rgb(0, 0, 0); background-position: initial initial; background-repeat: initial initial; }
+.md-html-inline .md-plain, .md-html-inline strong, mark .md-inline-math, mark strong { color: inherit; }
+mark .md-meta { color: rgb(0, 0, 0); opacity: 0.3 !important; }
+@media print { 
+  .typora-export h1, .typora-export h2, .typora-export h3, .typora-export h4, .typora-export h5, .typora-export h6 { break-inside: avoid; }
+}
+.md-diagram-panel .messageText { stroke: none !important; }
+.md-diagram-panel .start-state { fill: var(--node-fill); }
+.md-diagram-panel .edgeLabel rect { opacity: 1 !important; }
+.md-require-zoom-fix foreignObject { font-size: var(--mermaid-font-zoom); }
+
+
+:root {
+	--primary-color: #2875d9;
+}
+
+* {
+	box-sizing: border-box;
+}
+
+html, body, #write {
+	font-family: 'Computer Modern';
+}
+
+h1, h2, h3, h4, h5, h6 {
+	font-family: 'Computer Modern';
+}
+
+h1 {
+	font-size: 2rem;
+}
+
+h2 {
+	font-size: 1.8rem;
+}
+
+h3 {
+	font-size: 1.6rem;
+}
+
+h4 {
+	font-size: 1.4rem;
+}
+
+h5 {
+	font-size: 1.2rem;
+}
+
+h6 {
+	font-size: 1rem;
+}
+
+html {
+	font-size: 20px;
+}
+
+body, #write {
+	max-width: 914px;
+	text-align: justify;
+	display: block;
+	margin: auto;
+}
+
+p {
+	font-size: 1rem;
+}
+
+a {
+	color: var(--primary-color);
+}
+
+/* Stuff */
+
+sup.md-footnote {
+	background-color: transparent;
+	color: var(--primary-color);
+	padding: 1px;
+	margin: 0;
+}
+
+code, .md-fences, .sourceCode {
+	background: #f2f2f2;
+}
+
+.md-fences, pre.sourceCode {
+	font-size: .7em;
+	padding: .5rem;
+}
+
+.show-fences-line-number .md-fences {
+	padding-left: .5rem;
+}
+
+blockquote {
+	margin: 2rem .2rem;
+	padding: .3rem .5rem;
+	color: #6f6f6f;
+	border-left: .4rem solid gray;
+}
+
+blockquote p {
+	padding: .2rem 1.5rem;
+}
+
+mark {
+	background: yellow;
+}
+
+figure {
+	margin: .5rem auto;
+	max-width: 100%;
+	display: block;
+	margin: auto;
+}
+
+figcaption {
+	text-align: center;
+	margin: .5rem auto;
+}
+
+img {
+	max-width: 100%;
+	display: block;
+	margin: auto;
+}
+
+/* 
+    Print Mode and page breaks.
+    WkhtmlToPDF does not work on @print mode
+*/
+
+@media (max-width: 210mm) {
+	img {
+		max-height: 8cm;
+	}
+	html {
+		font-size: 16px;
+	}
+	div[title="pb"], page-break {
+		display: block;
+		page-break-after: always;
+		break-after: page;
+	}
+	nav {
+		font-size: .9rem;
+		page-break-after: always;
+		page-break-before: always;
+	}
+	nav a {
+		color: black;
+	}
+	/* Move top-level headings to a new page on the right-hand side: */
+	h1, h2 {
+		page-break-before: right;
+		break-before: recto;
+	}
+	/* Override the previous ruleset for the very first heading: */
+	h1:first-of-type, section>h1:first-child {
+		page-break-before: avoid;
+		break-before: avoid;
+	}
+	/* Headings should not be the last paragraph on a page: */
+	h1, h2, h3, h4, h5, h6 {
+		page-break-after: avoid;
+	}
+	/* Consecutive headings with deepening level should not be split across pages: */
+	h1+h2, h2+h3, h3+h4, h4+h5, h5+h6 {
+		page-break-before: avoid;
+	}
+}
+
+ :root {--mermaid-font-zoom:1em ;}  .typora-export li, .typora-export p, .typora-export,  .footnote-line {white-space: normal;} 
+</style>
+</head>
+<body class='typora-export'>
+<div id='write'  class=''><h1><a name="adding-an-episode" class="md-header-anchor"></a><span>Adding An Episode</span></h1><p><span>To add an episode to a podcast we need to add it to the rss file for that podcast. An rss file is a file in the xml format (what that means isnt important but its a way of defining data with tags like this </span><span>&lt;</span><span>tag</span><span>&gt;</span><span> and closed like this </span><span>&lt;</span><span>/tag</span><span>&gt;</span><span>). </span></p><p><span>For now i will assume we have an xml file for the podcast - i may add a tool for this later</span></p><p><span>Within the xml file we have a set of tags. To add a new episode we need to add another set of </span><span>&lt;</span><span>item</span><span>&gt;</span><span> tags. This will contain all the information for our episode. First we need to upload the audio file into the github. </span></p><ol start='' ><li><p><span>On the github online client (</span><a href='https://github.com/UCLChristianUnion/UCLChristianUnion.github.io' target='_blank' class='url'>https://github.com/UCLChristianUnion/UCLChristianUnion.github.io</a><span>) navigate into the folder containing your podcasts audio files. eg audio/WhatNow for the 2021 mission week files</span></p><p><img src="/Users/joshuamukherjee/Documents/Church/UCCF/CU/UCLChristianUnion.github.io/images/Guide/files.png" referrerpolicy="no-referrer"></p></li></ol><ol start='2' ><li><p><span>Then click on the top right &#39;Add File&#39; then click &#39;Upload files&#39; and upload your file</span></p><p><img src="/Users/joshuamukherjee/Documents/Church/UCCF/CU/UCLChristianUnion.github.io/images/Guide/upload.png" referrerpolicy="no-referrer"></p></li><li><p><span>Click on the file you have uploaded and then click copy path. The link to the file will be </span><a href='https://uclchristianunion.github.io/' target='_blank' class='url'>https://uclchristianunion.github.io/</a><span>{What you copied} eg </span><a href='https://uclchristianunion.github.io/audio/WhatNow/WhatNowSuccess.mpeg' target='_blank' class='url'>https://uclchristianunion.github.io/audio/WhatNow/WhatNowSuccess.mpeg</a><span> . </span><b><span> You will need the link for your file you uploaded </span></b></p><p><img src="/Users/joshuamukherjee/Documents/Church/UCCF/CU/UCLChristianUnion.github.io/images/Guide/copyPath.png" referrerpolicy="no-referrer"></p></li><li><p><span>Now we need to create the </span><span>&lt;</span><span>item</span><span>&gt;</span><span> tag for the xml file. Go to this link: </span><a href='https://uclchristianunion.github.io/ItemCreator/ItemCreator.html' target='_blank' class='url'>https://uclchristianunion.github.io/ItemCreator/ItemCreator.html</a><span>. You should then be able to fill in the boxes. </span></p><ul><li><p><span>Author: Name of the author - default &quot;UCL Christian Union&quot; you can leave it as that or you can change it</span></p></li><li><p><span>Title: The title of the talk eg &quot;Success Culture and Christianity - How can i succeed and fail without it ruining me?&quot;</span></p></li><li><p><span>Date: Must be in the format &#39;day-of-the-week, day month year time time-zone&#39; This should be autofilled. Eg &quot;Wed, 10 Mar 2021 13:00:00 GMT&quot;</span></p></li><li><p><span>URL: the URL we obtained in step 3. Make sure you also include the </span><a href='https://uclchristianunion.github.io/' target='_blank' class='url'>https://uclchristianunion.github.io/</a><span> part eg &quot;</span><a href='https://uclchristianunion.github.io/audio/WhatNow/WhatNowSuccess.mpeg' target='_blank' class='url'>https://uclchristianunion.github.io/audio/WhatNow/WhatNowSuccess.mpeg</a><span>&quot;</span></p></li><li><p><span>Type: the file type eg &quot;audio/mpeg&quot;</span></p></li><li><p><span>ByteLength: the length of the file in bytes. On your computer you should be able to see this information in your files- press command-I on a Mac and its size under general (remove the commas). On windows you should be able see it in file explorer in the size column.  Eg &quot;29512661&quot;</span></p></li><li><p><span>Duration: the length of the audio in the format minutes:seconds eg &quot;39:33&quot;</span></p></li><li><p><span>Explicit: is it explicit, probably not so autofilled no eg &quot;no&quot;</span></p></li><li><p><span>Description: the description of the talk. You should be able to use HTML to make links etc in this if you know how and want to do that eg </span></p><ul><li><span>&quot;We are brought up in a culture that teaches us to succeed. This might mean making good money, getting a good job, making our family proud, getting good grades at uni... So we strive to achieve them. But you feel like an imposter, everyone around you seems better than you are. You’re told to work harder, that a bit more success will make you feel better. But it never does… There&#39;s always more, it&#39;s overwhelming, the fear of failure, the feeling of insignificance. So… what now? Events week is a series of talks organized by the UCL Christian Union, around 40min each, and this year we are exploring the theme of &quot;What now?&quot;. We are very excited to have Peter Dray from UCCF speak to us on the first topic &quot;Success Culture and Christianity - How Can I Succeed And Fail Without It Ruining Me?&quot;</span><span>&lt;</span><span>br /</span><span>&gt;</span><span>&lt;</span><span>br /</span><span>&gt;</span><span>---</span><span>&lt;</span><span>br /&gt;</span><span>&lt;</span><span>br /&gt;Check out our social media to stay up to date with future events:</span><br><span>&lt;</span><span>br /&gt;Facebook: </span><span>&lt;</span><span>a href=&quot;</span><a href='https://www.facebook.com/uclcu' target='_blank' class='url'>https://www.facebook.com/uclcu</a><span>&quot; rel=&quot;noopener&quot;&gt;</span><a href='https://www.facebook.com/uclcu' target='_blank' class='url'>https://www.facebook.com/uclcu</a></a><span>/</span><span>&lt;</span><span>br /&gt;</span><span>&lt;</span><span>br /&gt;Instagram: </span><span>&lt;</span><span>a href=&quot;</span><a href='https://www.instagram.com/ucl.cu/' target='_blank' class='url'>https://www.instagram.com/ucl.cu/</a><span>&quot; rel=&quot;noopener&quot;&gt;</span><a href='https://www.instagram.com/ucl.cu/' target='_blank' class='url'>https://www.instagram.com/ucl.cu/</a><span>&lt;</span><span>/a&gt;&quot;</span></li></ul></li><li><p><span>GUID: This is a random id for the podcast, probably don&#39;t change this from what its autofilled but you can</span></p></li></ul></li><li><p><span>Now press &quot;Set values&quot;. This should fill in the text at the top of the page. IT may not look exactly like this but the boxes should be the same:</span></p><p><img src="/Users/joshuamukherjee/Documents/Church/UCCF/CU/UCLChristianUnion.github.io/images/Guide/FillTags.png" referrerpolicy="no-referrer"></p></li><li><p><span>Copy the text at the top from the </span><span>&lt;</span><span>item&gt; to the </span><span>&lt;</span><span>/item&gt; (highlighted in red) we will need to put this in the xml file. Find the feed for your podcast eg WhatNowFeed.xml and open it</span></p><p><img src="/Users/joshuamukherjee/Documents/Church/UCCF/CU/UCLChristianUnion.github.io/images/Guide/findRSS.png" referrerpolicy="no-referrer"></p></li><li><p><span>Click edit this file (the pencil) in the top right</span></p><p><img src="/Users/joshuamukherjee/Documents/Church/UCCF/CU/UCLChristianUnion.github.io/images/Guide/edit.png" referrerpolicy="no-referrer"></p></li><li><p><span>Scroll to the very bottom of the page. Paste the stuff you copied in step 6 </span><b><span> below </span></b><span> the last </span><span>&lt;</span><span>/item&gt; tag in the file and </span><strong><span>before</span></strong><span> the </span><span>&lt;</span><span>/channel&gt; tag. </span></p><p><img src="/Users/joshuamukherjee/Documents/Church/UCCF/CU/UCLChristianUnion.github.io/images/Guide/Paste.png" referrerpolicy="no-referrer"></p></li><li><p><span>Scroll down to the bottom and then press &quot;Commit Changes&quot;. It should work!</span></p><p>&nbsp;</p></li></ol><p>&nbsp;</p></div>
+</body>
+</html>
