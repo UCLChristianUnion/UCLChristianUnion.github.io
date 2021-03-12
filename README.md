@@ -1,17 +1,17 @@
-# UCLChristianUnion.github.io
+# UCL Christian Union
 
 Hey! This is for the UCL Christian Union to host podcasts on!
 
 Love if you would get in contact with us: <br>
-Instagram -  https://www.instagram.com/ucl.cu <br>
-Website - https://uclchristianunion.wixsite.com/uclcu <br>
-Link tree - https://linktr.ee/ucl.cu <br>
+
+<a src = "https://www.instagram.com/ucl.cu" > Instagram <a> 
+<a src = "https://linktr.ee/ucl.cu" > Website </a>
+<a src = "https://uclchristianunion.wixsite.com/uclcu" > Link tree </a>
 
 
-To create a new item for the RSS: https://uclchristianunion.github.io/ItemCreator/ItemCreator.html
+<a src = "https://uclchristianunion.github.io/ItemCreator/ItemCreator.html"> To create a new item for the RSS </a>
 
-If you want to add to the RSS follow this guide:
-https://uclchristianunion.github.io/AddItemGuide.html
+<a src ="https://uclchristianunion.github.io/AddItemGuide.html"> If you want to add to the RSS follow this guid </a>
 
-Podcast:
-https://open.spotify.com/show/1QuL94lfutdVuvbhYROArS
+
+<a href="https://open.spotify.com/show/1QuL94lfutdVuvbhYROArS"> Podcast  Link</a>
