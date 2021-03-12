@@ -1,0 +1,67 @@
+<html>
+
+
+
+<head>
+  <link rel="stylesheet" href="main.css">
+</head>
+
+<body onload="setPresets()">
+
+<code>
+<pre>
+   &lt;item&gt;
+    &lt;itunes:author&gt;<span id="author"> </span>&lt;/itunes:author&gt;
+    &lt;title&gt;<span id="title"></span>&lt;/title&gt;
+    &lt;pubDate&gt;<span id="date"></span>&lt;/pubDate&gt;
+    &lt;enclosure url=&quot;<span id="url"></span>&quot; type=&quot;<span id="type"></span>&quot; length=&quot;<span id="ByteLength"></span>&quot; /&gt;
+    &lt;itunes:duration&gt;<span id="duration"></span>&lt;/itunes:duration&gt;
+    &lt;itunes:explicit&gt;<span id="explicit"></span>&lt;/itunes:explicit&gt;
+    &lt;description&gt;
+      &lt![CDATA[ <span id="description"></span> ]]&gt
+    &lt;/description&gt;
+    &lt;guid isPermaLink="false"&gt; <span id="guid"></span> &lt;/guid &gt;
+   &lt;/item&gt;
+</pre>
+</code>
+
+<div class="container">
+    <label> Author </label> <input id="authorInput" value="UCL Christian Union"> <br>
+    <label> Title </label> <input id="titleInput"> <br>
+    <label> Date </label> <input id="dateInput"> <br>
+    <label> URL </label> <input id="urlInput">  <br>
+    <label> Type </label> <input id="typeInput" value="audio/mpeg"> <br>
+    <label> ByteLength </label> <input id="ByteLengthInput"> <br>
+    <label> Duration </label> <input id="durationInput"> <br>
+    <label> Explicit </label> <input id="explicitInput", value="no"> <br>
+    <label> Description </label> <input id="descriptionInput"> <br>
+    <label> GUID </label> <input id="guidInput"> <br>
+</div>
+
+<button onclick= setValues()> Set Values </button>
+
+<script>
+    //Theres certainly a nocer way to do this but eh it works
+    function setValues(){
+        document.getElementById("author").textContent = document.getElementById("authorInput").value
+        document.getElementById("title").textContent = document.getElementById("titleInput").value
+        document.getElementById("date").textContent = document.getElementById("dateInput").value
+        document.getElementById("url").textContent = document.getElementById("urlInput").value
+        document.getElementById("type").textContent = document.getElementById("typeInput").value
+        document.getElementById("ByteLength").textContent = document.getElementById("ByteLengthInput").value
+        document.getElementById("duration").textContent = document.getElementById("durationInput").value
+        document.getElementById("explicit").textContent = document.getElementById("explicitInput").value
+        document.getElementById("description").textContent = document.getElementById("descriptionInput").value
+        document.getElementById("guid").textContent = document.getElementById("guidInput").value
+    }
+
+    function setPresets(){
+        var date = new Date().toUTCString()
+        document.getElementById("dateInput").value = date
+        var rand = Math.floor(Math.random() * 100000000000);
+        document.getElementById("guidInput").value = rand
+    }
+
+</script>
+
+</html>
