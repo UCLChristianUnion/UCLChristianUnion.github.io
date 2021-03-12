@@ -8,16 +8,16 @@ Within the xml file we have a set of tags. To add a new episode we need to add a
 
 1. On the github online client (https://github.com/UCLChristianUnion/UCLChristianUnion.github.io) navigate into the folder containing your podcasts audio files. eg audio/WhatNow for the 2021 mission week files
 
-   ![](/Users/joshuamukherjee/Documents/Church/UCCF/CU/UCLChristianUnion.github.io/images/Guide/files.png)
+   ![](images/Guide/files.png)
 
 
 2. Then click on the top right 'Add File' then click 'Upload files' and upload your file
 
-   ![](/Users/joshuamukherjee/Documents/Church/UCCF/CU/UCLChristianUnion.github.io/images/Guide/upload.png)
+   ![](images/Guide/upload.png)
 
 3. Click on the file you have uploaded and then click copy path. The link to the file will be https://uclchristianunion.github.io/{What you copied} eg https://uclchristianunion.github.io/audio/WhatNow/WhatNowSuccess.mpeg . <b> You will need the link for your file you uploaded </b>
 
-   ![](/Users/joshuamukherjee/Documents/Church/UCCF/CU/UCLChristianUnion.github.io/images/Guide/copyPath.png)
+   ![](images/Guide/copyPath.png)
 
 4. Now we need to create the \<item\> tag for the xml file. Go to this link: https://uclchristianunion.github.io/ItemCreator/ItemCreator.html. You should then be able to fill in the boxes. 
 
@@ -35,23 +35,21 @@ Within the xml file we have a set of tags. To add a new episode we need to add a
 
 5. Now press "Set values". This should fill in the text at the top of the page. IT may not look exactly like this but the boxes should be the same:
 
-   ![](/Users/joshuamukherjee/Documents/Church/UCCF/CU/UCLChristianUnion.github.io/images/Guide/FillTags.png)
+   ![](images/Guide/FillTags.png)
 
 6. Copy the text at the top from the \<item> to the \</item> (highlighted in red) we will need to put this in the xml file. Find the feed for your podcast eg WhatNowFeed.xml and open it
 
-   ![](/Users/joshuamukherjee/Documents/Church/UCCF/CU/UCLChristianUnion.github.io/images/Guide/findRSS.png)
+   ![](images/Guide/findRSS.png)
 
 7. Click edit this file (the pencil) in the top right
 
-   ![](/Users/joshuamukherjee/Documents/Church/UCCF/CU/UCLChristianUnion.github.io/images/Guide/edit.png)
+   ![](images/Guide/edit.png)
 
 8. Scroll to the very bottom of the page. Paste the stuff you copied in step 6 <b> below </b> the last \</item> tag in the file and **before** the \</channel> tag. 
 
-   ![](/Users/joshuamukherjee/Documents/Church/UCCF/CU/UCLChristianUnion.github.io/images/Guide/Paste.png)
+   ![](images/Guide/Paste.png)
 
 9. Scroll down to the bottom and then press "Commit Changes". It should work!
 
-   
 
-   
 
