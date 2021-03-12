@@ -3,10 +3,8 @@
   <channel>
     <title>UCL Christian Union What now? 2021</title>
     <googleplay:author>UCL Christian Union</googleplay:author>
-    <author>UCL Christian Union</author>
     <itunes:author>UCL Christian Union</itunes:author>
-    <itunes:email>ucl.christianunion@gmail.com</itunes:email>
-    <itunes:category text="Religion" />
+    <itunes:category text="Christianity" />
     <image>
       <url>https://uclchristianunion.github.io/images/main.png</url>
       <title>UCL Christian Union What now? 2021</title>
