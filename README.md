@@ -12,3 +12,6 @@ To create a new item for the RSS: https://uclchristianunion.github.io/ItemCreato
 
 If you want to add to the RSS follow this guide:
 https://uclchristianunion.github.io/AddItemGuide.html
+
+Podcast:
+https://open.spotify.com/show/1QuL94lfutdVuvbhYROArS
