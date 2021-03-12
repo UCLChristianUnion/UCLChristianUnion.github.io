@@ -15,3 +15,5 @@ Love if you would get in contact with us: <br>
 
 
 <a href="https://open.spotify.com/show/1QuL94lfutdVuvbhYROArS"> Podcast  Link</a>
+
+RSS link: https://uclchristianunion.github.io/WhatNowFeed.xml
