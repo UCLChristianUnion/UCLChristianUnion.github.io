@@ -1,5 +1,7 @@
 # Adding An Episode To a Podcast
 
+(If you know how to you can also just git pull, change files and git push as with any repo)
+
 To add an episode to a podcast we need to add it to the rss file for that podcast. An rss file is a file in the xml format (what that means isnt important but its a way of defining data with tags like this \<tag\> and closed like this \</tag\>). 
 
 For now i will assume we have an xml file for the podcast - i may add a tool for this later
