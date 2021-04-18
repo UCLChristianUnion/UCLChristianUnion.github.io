@@ -95,5 +95,17 @@
     </description>
     <guid isPermaLink="false"> 32566707806 </guid >
    </item>
+   <item>
+    <itunes:author>UCL Christian Union</itunes:author>
+    <title> <![CDATA[What is the point in the Bible?]]>   </title>
+    <pubDate>Sun, 18 Apr 2021 14:24:22 GMT</pubDate>
+    <enclosure url="https://uclchristianunion.github.io/audio/WhatNow/fritalk2.mp3" type="audio/mpeg" length="13006974" />
+    <itunes:duration>23:47</itunes:duration>
+    <itunes:explicit>no</itunes:explicit>
+    <description>
+      <![CDATA[ Christians talk about reading the Bible all the time. But what is it about the Bible that makes it so special? What even is the point in reading this book that was written so long ago? Can I be a Christian without having to read the Bible? Join us as we hear from Giles Cattermole from UCCF about this topic! ]]>
+    </description>
+    <guid isPermaLink="false"> 30625811371 </guid >
+   </item>
   </channel>
 </rss>
