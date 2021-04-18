@@ -119,5 +119,17 @@
     </description>
     <guid isPermaLink="false"> 86734010492 </guid >
    </item>
+   <item>
+    <itunes:author>UCL Christian Union</itunes:author>
+    <title> <![CDATA[Can anyone be forgiven?]]>   </title>
+    <pubDate>Sun, 18 Apr 2021 14:33:42 GMT</pubDate>
+    <enclosure url="https://uclchristianunion.github.io/audio/WhatNow/fritalk4.mp3" type="audio/mpeg" length="12613462" />
+    <itunes:duration>27:51</itunes:duration>
+    <itunes:explicit>no</itunes:explicit>
+    <description>
+      <![CDATA[ Christians talk about a merciful God who forgives our sins, but does that mean that everyone, regardless of what they have done, can be forgiven? How is it possible that God is both merciful and just? Join us as we hear from our UCCF staff worker Connor Perring about this topic! ]]>
+    </description>
+    <guid isPermaLink="false"> 10281497169 </guid >
+   </item>
   </channel>
 </rss>
