@@ -107,5 +107,17 @@
     </description>
     <guid isPermaLink="false"> 30625811371 </guid >
    </item>
+   <item>
+    <itunes:author>UCL Christian Union</itunes:author>
+    <title> <![CDATA[Who is Jesus]]>   </title>
+    <pubDate>Sun, 18 Apr 2021 14:30:08 GMT</pubDate>
+    <enclosure url="https://uclchristianunion.github.io/audio/WhatNow/fritalk3.mp3" type="audio/mpeg" length="18975497" />
+    <itunes:duration>35:59</itunes:duration>
+    <itunes:explicit>no</itunes:explicit>
+    <description>
+      <![CDATA[ Perhaps we all associate the name "Jesus" with different things. But who exactly was or is Jesus? Was he actually a real person who walked the Earth? And if so, what relevance does that have with our 21st century lives? Join us as we hear from Tom Kendall from the UCCF Politics Network about this topic! ]]>
+    </description>
+    <guid isPermaLink="false"> 86734010492 </guid >
+   </item>
   </channel>
 </rss>
