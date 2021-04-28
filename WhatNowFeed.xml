@@ -25,7 +25,7 @@
     <itunes:image href="https://uclchristianunion.github.io/images/main.png" />
     <item>
       <itunes:author>UCL Christian Union </itunes:author>
-      <title>Success Culture and Christianity - How can i succeed and fail without it ruining me?</title>
+      <title>Success Culture and Christianity - How can I succeed and fail without it ruining me?</title>
       <pubDate>Wed, 10 Mar 2021 13:00:00 GMT</pubDate>
       <enclosure url="https://uclchristianunion.github.io/audio/WhatNow/WhatNowSuccess.mpeg" type="audio/mpeg" length="29512661" />
       <itunes:duration>39:33</itunes:duration>
@@ -83,5 +83,53 @@
       </description>
       <guid isPermaLink="false"> 69949377564 </guid >
      </item>
+   <item>
+    <itunes:author>UCL Christian Union</itunes:author>
+    <title> <![CDATA[Why Christianity over another religion?]]>   </title>
+    <pubDate>Sun, 18 Apr 2021 14:06:53 GMT</pubDate>
+    <enclosure url="https://uclchristianunion.github.io/audio/WhatNow/fritalk1 (audio-extractor.net).mp3" type="audio/mpeg" length="12219906" />
+    <itunes:duration>24:08</itunes:duration>
+    <itunes:explicit>no</itunes:explicit>
+    <description>
+      <![CDATA[ This is the first of our series of four lunch talks following Events Week! Join us as we hear from Michael Williams from the UCCF Theology Network about the topic: "Why Christianity over another religion?" ]]>
+    </description>
+    <guid isPermaLink="false"> 32566707806 </guid >
+   </item>
+   <item>
+    <itunes:author>UCL Christian Union</itunes:author>
+    <title> <![CDATA[What is the point in the Bible?]]>   </title>
+    <pubDate>Sun, 18 Apr 2021 14:24:22 GMT</pubDate>
+    <enclosure url="https://uclchristianunion.github.io/audio/WhatNow/fritalk2.mp3" type="audio/mpeg" length="13006974" />
+    <itunes:duration>23:47</itunes:duration>
+    <itunes:explicit>no</itunes:explicit>
+    <description>
+      <![CDATA[ Christians talk about reading the Bible all the time. But what is it about the Bible that makes it so special? What even is the point in reading this book that was written so long ago? Can I be a Christian without having to read the Bible? Join us as we hear from Giles Cattermole from UCCF about this topic! ]]>
+    </description>
+    <guid isPermaLink="false"> 30625811371 </guid >
+   </item>
+   <item>
+    <itunes:author>UCL Christian Union</itunes:author>
+    <title> <![CDATA[Who is Jesus]]>   </title>
+    <pubDate>Sun, 18 Apr 2021 14:30:08 GMT</pubDate>
+    <enclosure url="https://uclchristianunion.github.io/audio/WhatNow/fritalk3.mp3" type="audio/mpeg" length="18975497" />
+    <itunes:duration>35:59</itunes:duration>
+    <itunes:explicit>no</itunes:explicit>
+    <description>
+      <![CDATA[ Perhaps we all associate the name "Jesus" with different things. But who exactly was or is Jesus? Was he actually a real person who walked the Earth? And if so, what relevance does that have with our 21st century lives? Join us as we hear from Tom Kendall from the UCCF Politics Network about this topic! ]]>
+    </description>
+    <guid isPermaLink="false"> 86734010492 </guid >
+   </item>
+   <item>
+    <itunes:author>UCL Christian Union</itunes:author>
+    <title> <![CDATA[Can anyone be forgiven?]]>   </title>
+    <pubDate>Sun, 18 Apr 2021 14:33:42 GMT</pubDate>
+    <enclosure url="https://uclchristianunion.github.io/audio/WhatNow/fritalk4.mp3" type="audio/mpeg" length="12613462" />
+    <itunes:duration>27:51</itunes:duration>
+    <itunes:explicit>no</itunes:explicit>
+    <description>
+      <![CDATA[ Christians talk about a merciful God who forgives our sins, but does that mean that everyone, regardless of what they have done, can be forgiven? How is it possible that God is both merciful and just? Join us as we hear from our UCCF staff worker Connor Perring about this topic! ]]>
+    </description>
+    <guid isPermaLink="false"> 10281497169 </guid >
+   </item>
   </channel>
 </rss>
