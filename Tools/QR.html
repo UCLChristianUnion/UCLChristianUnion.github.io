@@ -1,0 +1,43 @@
+<html>
+<script src="https://cdn.rawgit.com/davidshimjs/qrcodejs/gh-pages/qrcode.min.js"></script>
+
+
+
+<div class="container">
+    <label> URL </label> <input id="URL" value="https://"> <br>
+    <label> Width </label> <input id="Width" value="128"> <br>
+    <label> Height </label> <input id="Height" value="128"> <br>
+    <label> ColourDark </label> <input id="ColourDark" value="#5868bf"> <br>
+    <label> ColourLight </label> <input id="ColourLight" value="#ffffff"> <br>
+</div>
+
+<button onclick= setQR()> Generate Code </button>
+
+
+<div id="qrcode"></div>
+<script type="text/javascript">
+    //Joshua Mukherjee UCLCU 2021
+    function setQR() {
+        document.getElementById("qrcode").innerHTML = "";
+
+        var url = document.getElementById("URL").value;
+        var width = document.getElementById("Width").value;
+        var height = document.getElementById("Height").value;
+        var ColourLight = document.getElementById("ColourLight").value;
+        var ColourDark = document.getElementById("ColourDark").value;
+
+        console.log(URL);
+
+
+        var qrcode = new QRCode(document.getElementById("qrcode"), {
+            text: url,
+            width: parseInt(width),
+            height: parseInt(width),
+            colorDark: ColourDark,
+            colorLight: ColourLight,
+            correctLevel: QRCode.CorrectLevel.H
+        });
+    }
+</script>
+
+</html>
