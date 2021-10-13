@@ -17,3 +17,8 @@ We would love if you would get in contact with us: <br>
 
 RSS link: https://uclchristianunion.github.io/WhatNowFeed.xml
 
+
+
+<b> Tools </b>
+
+<a href ="https://uclchristianunion.github.io/Tools/QR"> To Create a QR Code click here </a>
